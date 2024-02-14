@@ -26,44 +26,44 @@
   This component comes with some `rtl` classes. Please remove them if they are not needed in your project.
 -->
 
-<div class="overflow-x-auto">
-  <table class="min-w-full divide-y-2  text-sm">
-    <thead class="">
-      <tr>
-        <th class="whitespace-nowrap px-4 py-2 font-medium text-gray-900">Name</th>
-        <th class="whitespace-nowrap px-4 py-2 font-medium text-gray-900">Role</th>
-        <th class="whitespace-nowrap px-4 py-2 font-medium text-gray-900">Action</th>
-      </tr>
-    </thead>
+          <div class="overflow-x-auto">
+            <table class="min-w-full divide-y-2  text-sm">
+              <thead class="">
+                <tr>
+                  <th class="whitespace-nowrap px-4 py-2 font-medium text-gray-900">Name</th>
+                  <th class="whitespace-nowrap px-4 py-2 font-medium text-gray-900">Role</th>
+                  <th class="whitespace-nowrap px-4 py-2 font-medium text-gray-900">Action</th>
+                </tr>
+              </thead>
 
-    <tbody class="divide-y">
-      <tr>
-        <td class="whitespace-nowrap px-4 py-2 font-medium text-gray-900">John Doe</td>
-        <td class="whitespace-nowrap px-4 py-2 text-gray-700">Web Developer</td>
-        <td>
-            <a href="{{route('settings.editaccount')}}">more details</a>
-        </td> 
-      </tr>
+              <tbody class="divide-y">
+                <tr>
+                  <td class="whitespace-nowrap px-4 py-2 font-medium text-gray-900">John Doe</td>
+                  <td class="whitespace-nowrap px-4 py-2 text-gray-700">Web Developer</td>
+                  <td>
+                      <a href="{{route('settings.editaccount')}}">more details</a>
+                  </td> 
+                </tr>
 
-      <tr>
-        <td class="whitespace-nowrap px-4 py-2 font-medium text-gray-900">Jane Doe</td>
-        <td class="whitespace-nowrap px-4 py-2 text-gray-700">Web Designer</td>
-        <td>
-            <a href="">more details</a>
-        </td>
+                <tr>
+                  <td class="whitespace-nowrap px-4 py-2 font-medium text-gray-900">Jane Doe</td>
+                  <td class="whitespace-nowrap px-4 py-2 text-gray-700">Web Designer</td>
+                  <td>
+                      <a href="">more details</a>
+                  </td>
 
-      </tr>
+                </tr>
 
-      <tr>
-        <td class="whitespace-nowrap px-4 py-2 font-medium text-gray-900">Gary Barlow</td>
-        <td class="whitespace-nowrap px-4 py-2 text-gray-700">Singer</td>
-        <td>
-            <a href="">more details</a>
-        </td>
-      </tr>
-    </tbody>
-  </table>
-</div>
+                <tr>
+                  <td class="whitespace-nowrap px-4 py-2 font-medium text-gray-900">Gary Barlow</td>
+                  <td class="whitespace-nowrap px-4 py-2 text-gray-700">Singer</td>
+                  <td>
+                      <a href="">more details</a>
+                  </td>
+                </tr>
+              </tbody>
+            </table>
+          </div>
         </div>
         </div>
     </div>

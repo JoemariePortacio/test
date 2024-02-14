@@ -12,7 +12,7 @@
             <div class="w-60 text-center space-y-3 items-center">
                 <img src="{{asset('img/BGC-transparent.png')}}" alt="">
                 <h3 class="font-bold">Rodgel Dantes</h3>
-                <h2>ADMIN</h2>
+                <h2 class="font-semibold">ADMIN</h2>
 
             </div>
             <div class="p-10 rounded-lg w-full h-96 space-y-3 font-bold text-lg shadow-xl hover:text-gray-700">

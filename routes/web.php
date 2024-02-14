@@ -92,3 +92,7 @@ Route::get('/settings/addaccount', function () {
 Route::get('/settings/editaccount', function () {
     return view('settings.editaccount');
 })->name('settings.editaccount');
+
+Route::get('/settings/activitylog', function () {
+    return view('settings.activitylog');
+})->name('settings.activitylog');

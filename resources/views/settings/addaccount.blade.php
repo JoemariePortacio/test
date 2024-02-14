@@ -6,7 +6,7 @@
         <section class="p-6 bg-white">
             <form novalidate="" action="" class="container flex flex-col mx-auto space-y-12">
                     <div class="pt-12 w-full h-full flex flex-col space-y-10 justify-center items-start">
-                            <a href="{{route('settings')}}">
+                            <a href="{{route('settings.account')}}">
                                 <i class=" fa-solid fa-arrow-left"></i>
                             </a>
                         </div>

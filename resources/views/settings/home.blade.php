@@ -14,13 +14,13 @@
                     <p class="p-2">Manage Employee Account</p>
                 </div>
             </a>
-            <div class="p-10 items-center rounded-lg text-center shadow-xl hover:bg-slate-300   hover:text-gray-700">
+            <a href="{{route('settings.activitylog')}}" class="p-10 items-center rounded-lg text-center shadow-xl hover:bg-slate-300   hover:text-gray-700">
                 <i class="text-6xl fa-solid fa-address-book"></i>
                 <div class="items-center text-center">
                     <h2 class="p-2">Activity Log</h2>
                     <p class="p-2">Manage your Business Activity</p>
                 </div>
-            </div>
+            </a>
         </div>
     </div>
 </div>
