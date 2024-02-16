@@ -1,6 +1,4 @@
 <x-layout>
-
-
 <div class="h-full m-5 ">
     <div class="h-fit m-5">
         <div class="pt-12 w-full h-full flex flex-col space-y-10 justify-center items-start">
@@ -20,12 +18,6 @@
             </a>
         </div>
         <div class="p-10 items-center h-full rounded-lg text-center shadow-2xl">
-            <!--
-  Heads up! 👋
-
-  This component comes with some `rtl` classes. Please remove them if they are not needed in your project.
--->
-
           <div class="overflow-x-auto">
             <table class="min-w-full divide-y-2  text-sm">
               <thead class="">

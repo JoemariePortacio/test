@@ -1,11 +1,11 @@
 <x-layout>
 
 
-<div class="h-full m-5 ">
-    <div class="p-4 text-center font-bold text-3xl">
+<div class="h-fit m-5">
+    <div class="p-4 text-center font-bold text-3xl ">
         <h3>Dashboard</h3>
     </div>
-    <div class="p-3 grid gap-2 grid-cols-3 grid-rows-1 w-full h-auto text-slate-700 ">
+    <div class="p-3 grid gap-2 grid-cols-1 md:grid-cols-3 grid-rows-1 w-full h-auto text-slate-700 ">
 
         <a href="{{route('settings.account')}}" class=" space-y-1 font-semibold h-36 p-4 rounded-lg items-center text-start shadow-xl border border-black hover:bg-slate-300   hover:text-gray-700">
           <i class=" text-2xl fa-solid fa-basket-shopping"></i>
@@ -26,7 +26,7 @@
         </a>
     </div>
 
-    <div class="p-5 grid gap-2 grid-cols-2 grid-rows-1 w-full ">
+    <div class="p-5 grid gap-2 grid-cols-1 md:grid-cols-2 grid-rows-1 w-full ">
         <div class="h-auto p-3 rounded-lg shadow-xl border border-black hover:bg-slate-300   hover:text-gray-700">
         <div>
             <canvas id="myChart"></canvas>
@@ -98,7 +98,7 @@
         </div>
     </div>
 
-    <div class="p-5 grid gap-2 grid-cols-2 grid-rows-1 w-full ">
+    <div class="p-5 grid gap-2 grid-cols-1 md:grid-cols-2 grid-rows-1 w-full ">
         <div class="h-auto p-3 rounded-lg shadow-xl border border-black hover:bg-slate-300   hover:text-gray-700">
         <div>
             <canvas id="myCharts"></canvas>
