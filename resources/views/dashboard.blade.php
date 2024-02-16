@@ -5,27 +5,24 @@
     <div class="p-4 text-center font-bold text-3xl">
         <h3>Dashboard</h3>
     </div>
-    <div class="grid gap-2 grid-cols-3 grid-rows-1 w-full h-auto ">
+    <div class="p-3 grid gap-2 grid-cols-3 grid-rows-1 w-full h-auto text-slate-700 ">
 
-        <a href="{{route('settings.account')}}" class="space-y-3 font-semibold h-28 p-3 rounded-lg items-center text-start shadow-xl border border-black hover:bg-slate-300 bg-emerald-500   hover:text-gray-700">
-            <h2>Total Cost</h2>
-            <div class="text-center text-4xl font-mono">
-                <h3>2,145</h3>
-            </div>
+        <a href="{{route('settings.account')}}" class=" space-y-1 font-semibold h-36 p-4 rounded-lg items-center text-start shadow-xl border border-black hover:bg-slate-300   hover:text-gray-700">
+          <i class=" text-2xl fa-solid fa-basket-shopping"></i>
+          <h3 class="text-4xl">2,145</h3>
+          <p class="text-sm">Total Macro</p>
         </a>
 
-        <a href="{{route('settings.account')}}" class="space-y-3 font-semibold h-28 p-3 rounded-lg items-center text-start shadow-xl border border-black hover:bg-slate-300 bg-purple-500   hover:text-gray-700">
-            <h2>Total Cost</h2>
-            <div class="text-center text-4xl font-mono">
-                <h3>2,145</h3>
-            </div>
+        <a href="{{route('settings.account')}}" class=" space-y-1 font-semibold h-36 p-4 rounded-lg items-center text-start shadow-xl border border-black hover:bg-slate-300   hover:text-gray-700">
+          <i class=" text-2xl fa-solid fa-basket-shopping"></i>
+          <h3 class="text-4xl">2,145</h3>
+          <p class="text-sm">Total Micro</p>
         </a>
 
-        <a href="{{route('settings.account')}}" class="space-y-3 font-semibold h-28 p-3 rounded-lg items-center text-start shadow-xl border border-black hover:bg-slate-300 bg-blue-400   hover:text-gray-700">
-            <h2>Total Cost</h2>
-            <div class="text-center text-4xl font-mono">
-                <h3>2,145</h3>
-            </div>
+        <a href="{{route('settings.account')}}" class=" space-y-1 font-semibold h-36 p-4 rounded-lg items-center text-start shadow-xl border border-black hover:bg-slate-300   hover:text-gray-700">
+          <i class=" text-2xl fa-solid fa-basket-shopping"></i>
+          <h3 class="text-4xl">2,145</h3>
+          <p class="text-sm">Total Medicine</p>
         </a>
     </div>
 
