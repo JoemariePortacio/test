@@ -96,3 +96,11 @@ Route::get('/settings/editaccount', function () {
 Route::get('/settings/activitylog', function () {
     return view('settings.activitylog');
 })->name('settings.activitylog');
+
+Route::get('/settings/permission', function () {
+    return view('settings.permission');
+})->name('settings.permissions');
+
+Route::get('/settings/updateuser', function () {
+    return view('settings.updateusers');
+})->name('settings.updateusers');

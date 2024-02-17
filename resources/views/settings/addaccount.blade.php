@@ -1,7 +1,7 @@
 <x-layout>
 
 
-<div class="h-full m-5 ">
+<div class="h-fit m-5 ">
     <div class="h-fit m-5">
         <section class="p-6 bg-white">
             <form novalidate="" action="" class="container flex flex-col mx-auto space-y-12">
@@ -67,5 +67,4 @@
             </form>
         </section>
     </div>
-</div>
 </x-layout>
