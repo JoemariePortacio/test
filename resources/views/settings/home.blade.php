@@ -1,7 +1,7 @@
 <x-layout>
 
 
-<div class="h-fit m-5">
+<div class="h-full m-5">
     <div class="pt-24 w-full h-full flex flex-col space-y-10 justify-center items-center">
         <h3 class="w-full mx-auto text-center text-4xl font-semibold"> 
             Setting
