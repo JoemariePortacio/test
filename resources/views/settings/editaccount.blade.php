@@ -21,8 +21,8 @@
                     <h3>Contacts:</h3>
                     <h3>Email Address:</h3>
                     <div class="space-y-4 space-x-4">
-                    <button type="button" class="px-8 py-3 font-semibold rounded dark:bg-green-500 dark:text-gray-800">Update</button>
-                    <button type="button" class="px-8 py-3 font-semibold rounded dark:bg-red-500 dark:text-gray-800">Delete</button>
+                        <button type="button" class="px-8 py-3 font-semibold rounded dark:bg-green-500 dark:text-gray-800">Update</button>
+                        <button type="button" class="px-8 py-3 font-semibold rounded dark:bg-red-500 dark:text-gray-800">Delete</button>
                     </div>
             </div>
         </div>

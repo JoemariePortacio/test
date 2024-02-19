@@ -12,7 +12,7 @@
             <h3>Activity Log</h3>
         </div>
         <div class="overflow-x-auto">
-            <table class="min-w-full divide-y-2  text-sm">
+            <table class="min-w-full divide-y-2  text-sm md:table-fixed">
               <thead class="">
                 <tr>
                   <th class="whitespace-nowrap px-4 py-2 font-medium text-gray-900">Name</th>

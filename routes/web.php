@@ -33,29 +33,29 @@ Route::get('/formulationstorage/formulation', function () {
     return view('formulationstorage.formulation');
 })->name('formulationstorage.formulation');
 
-Route::get('/recordsinventorysystem/feedrequest', function () {
-    return view('recordsinventorysystem.feedrequestrecords');
-})->name('recordsinventorysystem.feedrequest');
+Route::get('/recordsinventorysystem/weeklyrequest', function () {
+    return view('recordsinventorysystem.weeklyrequest');
+})->name('recordsinventorysystem.weeklyrequest');
 
 Route::get('/recordsinventorysystem/farminformation', function () {
     return view('recordsinventorysystem.farminformation');
 })->name('recordsinventorysystem.farminformation');
 
-Route::get('/recordsinventorysystem/accountingbills', function () {
-    return view('recordsinventorysystem.accountingbills');
-})->name('recordsinventorysystem.accountingbills');
+Route::get('/reports/accountingbills', function () {
+    return view('reports.accountingbills');
+})->name('reports.accountingbills');
 
-Route::get('/recordsinventorysystem/accountingpayrolls', function () {
-    return view('recordsinventorysystem.accountingpayrolls');
-})->name('recordsinventorysystem.accountingpayrolls');
+Route::get('/reports/accountingpayrolls', function () {
+    return view('reports.accountingpayrolls');
+})->name('reports.accountingpayrolls');
 
-Route::get('/recordsinventorysystem/pivotlogs', function () {
-    return view('recordsinventorysystem.pivotlogs');
-})->name('recordsinventorysystem.pivotlogs');
+Route::get('/reports/pivotlogs', function () {
+    return view('reports.pivotlogs');
+})->name('reports.pivotlogs');
 
-Route::get('/recordsinventorysystem/auditlogs', function () {
-    return view('recordsinventorysystem.auditlogs');
-})->name('recordsinventorysystem.auditlogs');
+Route::get('/reports/auditlogs', function () {
+    return view('reports.auditlogs');
+})->name('reports.auditlogs');
 
 Route::get('/forecasting/monitoringinventorylevels', function () {
     return view('forecasting.monitoringinventorylevels');
@@ -104,3 +104,12 @@ Route::get('/settings/permission', function () {
 Route::get('/settings/updateuser', function () {
     return view('settings.updateusers');
 })->name('settings.updateusers');
+
+Route::get('/accountingbills/addbills', function () {
+    return view('reports.addbills');
+})->name('accountingbills.addbill');
+
+Route::get('/accountingbills/updatebills', function () {
+    return view('reports.updatebills');
+})->name('accountingbills.updatebill');
+
