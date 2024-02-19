@@ -1,7 +1,7 @@
 <x-layout>
 
 
-    <div class="h-full m-5">
+    <div class="h-fit m-5">
         <h2 class="text-start text-2xl pt-3 m-3 font-bold">Accounting Bills - Electric Cost</h2>
         <h2 class="text-start text-2xl pt-3 m-3 font-bold">REPORTS</h2>
         <div class="pt-5 w-24">
@@ -22,8 +22,8 @@
                 <tr>
                   <td class="whitespace-nowrap px-4 py-2 font-medium text-gray-900">January 31 2024</td>
                   <td>
-                    <a href="{{route('accountingbills.updatebill')}}">
-                      <button type="button" class="px-1 py-1 font-semibold rounded dark:bg-green-500 dark:text-gray-800">Update</button>
+                    <a href="{{route('accountingbills.viewbill')}}">
+                      <button type="button" class="px-1 py-1 font-semibold rounded dark:bg-green-500 dark:text-gray-800">View</button>
                     </a>
                     <a href="">
                       <button type="button" class="px-1 py-1 font-semibold rounded dark:bg-red-500 dark:text-gray-800">Delete</button>
@@ -34,8 +34,8 @@
                 <tr>
                   <td class="whitespace-nowrap px-4 py-2 font-medium text-gray-900">January 31 2024</td>
                   <td>
-                    <a href="{{route('accountingbills.updatebill')}}">
-                      <button type="button" class="px-1 py-1 font-semibold rounded dark:bg-green-500 dark:text-gray-800">Update</button>
+                    <a href="{{route('accountingbills.viewbill')}}">
+                      <button type="button" class="px-1 py-1 font-semibold rounded dark:bg-green-500 dark:text-gray-800">View</button>
                     </a>
                     <a href="">
                       <button type="button" class="px-1 py-1 font-semibold rounded dark:bg-red-500 dark:text-gray-800">Delete</button>
@@ -47,8 +47,8 @@
                 <tr>
                   <td class="whitespace-nowrap px-4 py-2 font-medium text-gray-900">January 31 2024</td>
                   <td>
-                    <a href="{{route('accountingbills.updatebill')}}">
-                      <button type="button" class="px-1 py-1 font-semibold rounded dark:bg-green-500 dark:text-gray-800">Update</button>
+                    <a href="{{route('accountingbills.viewbill')}}">
+                      <button type="button" class="px-1 py-1 font-semibold rounded dark:bg-green-500 dark:text-gray-800">View</button>
                     </a>
                     <a href="">
                       <button type="button" class="px-1 py-1 font-semibold rounded dark:bg-red-500 dark:text-gray-800">Delete</button>

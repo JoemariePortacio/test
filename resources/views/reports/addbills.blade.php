@@ -1,6 +1,6 @@
 <x-layout>
 
-    <div class="h-full m-5">
+    <div class="h-fit m-5">
         <div class="w-full flex flex-col pt-3 justify-center items-start">
             <a href="{{route('reports.accountingbills')}}">
                 <i class=" fa-solid fa-arrow-left"></i>

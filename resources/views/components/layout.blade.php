@@ -87,7 +87,7 @@
       <div class=" bg-white col-span-5  md:col-span-4 row-span-8 md:row-span-9 w-full overflow-y-auto">
             {{$slot}}
 
-            <div class="py-3 flex justify-end text-black">
+            <div class="py-3 flex justify-end text-gray-500">
                 <div class="text-sm mx-8 ">
                   <span>©2024, Brookside Group of Companies. All rights reserved</span>
                 </div>

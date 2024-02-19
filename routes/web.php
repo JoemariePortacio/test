@@ -109,7 +109,7 @@ Route::get('/accountingbills/addbills', function () {
     return view('reports.addbills');
 })->name('accountingbills.addbill');
 
-Route::get('/accountingbills/updatebills', function () {
-    return view('reports.updatebills');
-})->name('accountingbills.updatebill');
+Route::get('/accountingbills/viewbills', function () {
+    return view('reports.viewbills');
+})->name('accountingbills.viewbill');
 
